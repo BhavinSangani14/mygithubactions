@@ -115,6 +115,6 @@ def fetch_data(cred, filters = {}):
 
     return issue_dic
   
-  cred = {"server" : "https://bhavin-sangani.atlassian.net", "email" : "100bhavinsangani@gmail.com", "api_token" : "ATATT3xFfGF0RIO9eXHFBzJHoPFVsFpEYcie7MSJwiSlvjsQRNO5EsOvJiL3WWQnHXV6Yb0bSbN0V_b0BEdhy7b4BBjH1UtPkyEyqiqvs-y_pHRmqBi8MdcH90jB8uTQcovNnZDHcV7HlYv7Jc_TI6h0zYt2E7LuVmeS-U699y87aBiHgC3ciM8=757265A8"}
-  data = fetch_data(cred)
-  print(data)
+cred = {"server" : "https://bhavin-sangani.atlassian.net", "email" : "100bhavinsangani@gmail.com", "api_token" : "ATATT3xFfGF0Uq16Aj7dRw_fF1g9Xw2BfPzNJ_CL5BZmT2jD9Q7hLvcklKAvbYJl-wVlpwYiYyN0tQT57QFNmkxIIpbiXn-TaQ1OMli88HmwJlaV7gQ-CQKqR0hcXlxrhBuGhcv2EsuzqG5PmGkFIP-q9rXOYT63RonUydri7Y4-CKVXW4CA5-Q=E87B74EB"}
+data = fetch_data(cred)
+print(data)
