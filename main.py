@@ -1,4 +1,4 @@
-import jira
+from jira import JIRA
 
 def fetch_data(cred, filters = {}):
     
