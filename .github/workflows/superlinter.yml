@@ -1,6 +1,13 @@
 name: Super-Linter
 
-on: pull_request
+on: 
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,3 +28,13 @@ jobs:
 
       - name: execute py script # run main.py
         run: python main.py
+
+  job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run : echo "hello world"
+        shell : bash
+      - name: good bye
+        run: echo "good by"
+        shell: bash
