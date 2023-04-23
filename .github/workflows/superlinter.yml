@@ -36,5 +36,5 @@ jobs:
         run : echo "hello world"
         shell : bash
       - name: good bye
-        run: echo "good by"
+        run: echo "good bye"
         shell: bash
